@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-color: rgb(27, 26, 26);
+    background-image: -webkit-linear-gradient(65deg,rgb(2, 2, 2) 50%,rgb(16, 16, 15) 50%);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#heading{
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    background-color:rgb(107, 104, 152);
+    padding: 1rem;
+    border-radius: 10px;
+}
+#content1{
+    color: rgb(17, 17, 17);
+    background-color: rgb(179, 177, 197);
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 29rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 0px;
+    
+
+}
+#content1 ul{
+    list-style-type: none;
+    padding: 0;
+}
+#content li{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+}
+#enter{
+    width: 25rem;
+    margin-right: 0px;
+    height: 2rem;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    border: 1px solid  rgb(179, 177, 197);
+}
+#adding{
+    margin-bottom: 0px;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    padding: 0px;
+    font-size: 2rem;
+    border: 1px solid rgb(107, 104, 152);
+    background-color: rgb(107, 104, 152);
+    margin: 0px;
+
+}

@@ -1,0 +1,19 @@
+<%-include("header")-%>
+        <h1 id="heading"><%=kindofday%></h1>
+
+
+        <div id="content1">
+            <ul>
+                <% for(var i=0;i<itemss.length;i++){ %>
+                    </button><li> <%= itemss[i] %> </li>
+                <% } %>
+            </ul>
+       
+    
+            <form action="/" method="post">
+                <input type="text" name="item" placeholder="NEW ITEM" id="enter">
+                <button type="submit" id="adding" name="adding" value="<%=kindofday%>">+</button>
+            </form>
+        </div>
+
+<%-include("footer")-%>
