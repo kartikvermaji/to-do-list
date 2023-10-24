@@ -61,5 +61,19 @@ body{
     border: 1px solid rgb(107, 104, 152);
     background-color: rgb(107, 104, 152);
     margin: 0px;
+}
+#listbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
 }
+input:checked+li{
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
