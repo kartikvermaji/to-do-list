@@ -8,7 +8,7 @@ const _=require('lodash');
 
 //SETTING UP THE DATABASE
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://0.0.0.0:27017/todolist", {
+mongoose.connect("mongodb+srv://kartikvermaji03:%40Kartik127@cluster0.axooytt.mongodb.net/todolist", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
